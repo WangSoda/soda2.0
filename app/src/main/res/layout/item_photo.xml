@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <CheckBox
+        android:id="@+id/img_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/img_photos_item"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@mipmap/no_photo"
+        android:layout_below="@id/img_check"/>
+
+</RelativeLayout>

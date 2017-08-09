@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="7dp">
+    <ImageView
+        android:id="@+id/user_avatar_friend"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:src="@mipmap/ic_launcher_round"/>
+    <TextView
+        android:id="@+id/user_nickname_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户昵称"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_toRightOf="@id/user_avatar_friend"/>
+
+
+</RelativeLayout>
